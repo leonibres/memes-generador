@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+  margin-bottom: 50px;
+  margin: 40px auto;
+  padding: 40px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(124, 8, 8, 0);
+}
+
+.select-meme {
+  font-size: 20px;
+  height: 40px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(28, 182, 123, 0.596);
+  color: #007db1;
+  font-family: Arial, sans-serif;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+}
+
+.select-meme:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.select-meme:focus {
+  box-shadow: 0 4px 8px rgba(97, 8, 8, 0.2), 0 0 0 2px #2fbb33;
+}
+
+.select-wrapper {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.input-wrapper {
+  margin-bottom: 10px;
+}
+
+input[type='text'] {
+  font-size: 15px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 50px 50px;
+  font-size: 18px;
+  padding-bottom: 12px;
+  padding-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.meme {
+  position: relative;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.meme span {
+  position: absolute;
+  width: 100%;
+  left: 10px;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.meme span:nth-child(1) {
+  margin-top: 350px;
+}
+
+.meme img {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
